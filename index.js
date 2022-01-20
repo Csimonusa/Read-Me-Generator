@@ -57,3 +57,8 @@ inquirer
         name: 'questions'
       },
   ])
+  
+  .then((data) => {
+    fs.writeFile(`${data.name}.json`, JSON.stringify(data, null, 1), (err) =>
+    err ? console.log(err) : console.log(`success!`))
+    })
