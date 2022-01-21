@@ -1,5 +1,15 @@
+function renderLicenseBadge(license) {
+    if (license === "ISC") {
+        return '![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)'
+    } else {
+        return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)'
+    }
+}
+
 const generateMd = answers => 
     `# ${answers.projectName}
+
+${renderLicenseBadge(answers.license)}
     
 ## Description
     
