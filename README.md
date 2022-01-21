@@ -1,10 +1,10 @@
 # BarHop
 
-![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
     
 ## Description
     
-example
+example readme
     
 ## Table Of Contents
     
@@ -22,26 +22,26 @@ example
     
 ## Installation
     
-example
+example readme
     
 ## Usage
     
-example
+https://drive.google.com/file/d/1ctS7DmqUoi9irSTWZT4eio_4dpksaddG/view?usp=sharing
     
 ## License
     
-ISC
+MIT
     
 ## Contributing
     
-example
+example readme
     
 ## Test
     
-example
+example readme
     
 ## Questions
     
 Visit my github profile [Csimonusa](https.//github.com/Csimonusa)
     
-If you have any questions regarding this project, please email me at example@exmaple.com
+If you have any questions regarding this project, please email me at example@example.com
