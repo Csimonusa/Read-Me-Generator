@@ -1,49 +1,48 @@
-const generateMd = answers => {
-    `# ${answers.title}
+const generateMd = answers => 
+    `# ${answers.projectName}
     
-    ## Description
+## Description
     
-    ${answers.description}
+${answers.description}
     
-    ## Table Of Contents
+## Table Of Contents
     
-    * [Installation](#installation)
+* [Installation](#installation)
     
-    * [Usage](#usage)
+* [Usage](#usage)
     
-    * [License](#license)
+* [License](#license)
     
-    * [Contributing](#contributing)
+* [Contributing](#contributing)
     
-    * [Test](#test)
+* [Test](#test)
     
-    * [Questions](#questions)
+* [Questions](#questions)
     
-    ## Installation
+## Installation
     
-    ${answers.installation}
+${answers.installation}
     
-    ## Usage
+## Usage
     
-    ${answers.usage}
+${answers.usage}
     
-    ## License
+## License
     
-    ${answers.license}
+${answers.license}
     
-    ## Contributing
+## Contributing
     
-    ${answers.contributing}
+${answers.contributing}
     
-    ## Test
+## Test
     
-    ${answers.test}
+${answers.test}
     
-    ## Questions
+## Questions
     
-    Visit my github profile. [${answers.githubUser}](https.//github.com/${answers.githubUser})
+Visit my github profile [${answers.githubUser}](https.//github.com/${answers.githubUser})
     
-    If you have any questions regarding this project, please email me at ${answers.questions}`
-}
+If you have any questions regarding this project, please email me at ${answers.questions}`
 
 module.exports = generateMd

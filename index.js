@@ -1,5 +1,6 @@
 const inquirer = require("inquirer")
 const fs = require("fs")
+const generateMd = require("./Read-Me")
 
 inquirer
   .prompt([
@@ -57,8 +58,8 @@ inquirer
         name: 'questions'
       },
   ])
-  
-  .then((data) => {
-    fs.writeFile(`${data.name}.json`, JSON.stringify(data, null, 1), (err) =>
-    err ? console.log(err) : console.log(`success!`))
+
+  .then((answers) => {
+      fs.writeFile('README.md', generateMd(answers), (err) =>
+      err ? console.log(err) : console.log(`Success! your README is now created`))
     })
